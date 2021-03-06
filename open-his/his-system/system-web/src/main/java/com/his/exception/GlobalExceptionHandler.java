@@ -1,0 +1,10 @@
+package com.his.exception;
+
+/**
+ * @Author liyan
+ * @Date 2021-02-20
+ * @Version ： V1.0
+ * @Description:
+ */
+public class GlobalExceptionHandler {
+}
