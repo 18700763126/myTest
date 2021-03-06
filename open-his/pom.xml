@@ -36,7 +36,7 @@
         <hutool.version>5.1.1</hutool.version>
         <bitwalker.version>1.19</bitwalker.version>
         <dubbo.version>2.7.5</dubbo.version>
-        <swagger-version>2.9.2</swagger-version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
 
     <dependencyManagement>

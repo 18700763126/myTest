@@ -1,24 +1,32 @@
 import request from '@/utils/request'
 
+//登录
 export function login(data) {
   return request({
-    url: '/vue-element-admin/user/login',
+    url: '/login/doLogin',
     method: 'post',
     data
   })
 }
-
+//获取当前登录用户信息
 export function getInfo(token) {
   return request({
-    url: '/vue-element-admin/user/info',
+    url: '/login/getInfo',
     method: 'get',
     params: { token }
   })
 }
-
+//退出
 export function logout() {
   return request({
-    url: '/vue-element-admin/user/logout',
+    url: '/login/logout',
     method: 'post'
   })
+}
+// 得到菜单信息
+export function getMenus() {
+  return request({
+    url: '/login/getMenus',
+    method: 'get'
+  })
 }
